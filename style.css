@@ -1,64 +1,57 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
+  margin: 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+  margin-bottom: 30px; /* Add margin at the bottom of the header */
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
+.hero {
+  margin-bottom: 30px; /* Add margin at the bottom of the hero section */
 }
 
-nav li {
-    margin-right: 20px;
+.hero img {
+  display: block; /* Make the hero image a block element */
 }
 
-nav li:last-child {
-    margin-right: 0;
+.sections-container {
+  display: flex;
+  justify-content: stretch;
+  margin-bottom: 20px; /* Add margin at the bottom of the sections container */
 }
 
-main {
-    padding: 20px;
+.section {
+  width: 300px;
+  height: 375px;
+  margin-right: 10px; /* Add margin between the sections */
+  padding: 10px; /* Add padding within the sections */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
 }
 
-section {
-    margin-bottom: 20px;
+.left-section {
+  margin-bottom: 20px; /* Add margin at the bottom of the left section */
 }
 
-#scrollable-container {
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
-    height: 150px;
-    overflow-y: scroll;
+.scrollable-container {
+  max-height: 300px; /* Add a maximum height for scrollability */
+  overflow: auto; /* Enable scrolling if content exceeds the container */
+  padding: 10px; /* Add padding within the scrollable container */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
 }
 
-#scrollable-container p {
-    margin-bottom: 10px;
+.hover-section {
+  padding: 10px; /* Add padding within the hover section */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
 }
 
-.hover-effect {
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    opacity: 0;
-    transition: background-color 0.35s;
+.full-width-section {
+  margin-bottom: 20px; /* Add margin at the bottom of the full-width section */
+  padding: 10px; /* Add padding within the full-width section */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
 }
 
-.hover-effect:hover {
-    opacity: 1;
-    background-color: #ff5733;
+.footer-content {
+  background-color: #f0f0f0;
+  width: 960px;
+  height: 210px;
 }
