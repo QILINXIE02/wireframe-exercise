@@ -1,113 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleprevious.css">
-    <title>Wireframe</title>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        header {
-            margin-bottom: 30px; /* Add margin at the bottom of the header */
-        }
-
-        .hero {
-            margin-bottom: 30px; /* Add margin at the bottom of the hero section */
-        }
-
-        .hero img {
-            display: block; /* Make the hero image a block element */
-        }
-
-        .sections-container {
-            display: flex;
-            justify-content: stretch;
-            margin-bottom: 20px; /* Add margin at the bottom of the sections container */
-        }
-
-        .section {
-            width: 300px;
-            height: 375px;
-            margin-right: 10px; /* Add margin between the sections */
-            padding: 10px; /* Add padding within the sections */
-            background-color: #f0f0f0; /* Add a background color for better visualization */
-        }
-
-        .left-section {
-            margin-bottom: 20px; /* Add margin at the bottom of the left section */
-        }
-
-        .scrollable-container {
-            max-height: 300px; /* Add a maximum height for scrollability */
-            overflow: auto; /* Enable scrolling if content exceeds the container */
-            padding: 10px; /* Add padding within the scrollable container */
-            background-color: #f0f0f0; /* Add a background color for better visualization */
-        }
-
-        .hover-section {
-            padding: 10px; /* Add padding within the hover section */
-            background-color: #f0f0f0; /* Add a background color for better visualization */
-        }
-
-        .full-width-section {
-            margin-bottom: 20px; /* Add margin at the bottom of the full-width section */
-            padding: 10px; /* Add padding within the full-width section */
-            background-color: #f0f0f0; /* Add a background color for better visualization */
-        }
-
-        .footer-content {
-            background-color: #f0f0f0;
-            width: 960px;
-            height: 210px;
-        }
-    </style>
+  <title>Chocolate Pizza</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .separator-2 {
+      margin-top: 20px;
+      border-top: 2px solid #000; 
+    }
+    .profile-picture {
+      padding: 20px 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="https://place-hold.it/200x70/ddd" alt="Logo">
-        </div>
-        <nav>
-            <ul>
-                <li>Nav Item 1</li>
-                <li>Nav Item 2</li>
-                <li>Nav Item 3</li>
-                <li>Nav Item 4</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <img src="https://place-hold.it/960x450/ddd" alt="Hero Image">
-        </section>
-        <div class="sections-container">
-            <section class="section">
-                <img src="https://place-hold.it/300x375/ddd" alt="Section 1">
-            </section>
-            <section class "section">
-                <img src="https://place-hold.it/300x375/ddd" alt="Section 2">
-            </section>
-            <section class="section">
-                <img src="https://place-hold.it/300x375/ddd" alt="Section 3">
-            </section>
-        </div>
-        <aside class="left-section">
-            <div class="scrollable-container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-            </div>
-            <section class="hover-section">
-                <p>Hover Me</p>
-            </section>
-        </aside>
-        <section class="full-width-section">
-            <p>This is a full-width background section.</p>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content"></div>
-    </footer>
+  <header class="one-two-header">
+    <div class="one-two-leftheader">
+      <img src="images/logo.png" />
+      <div>
+        <p>Delicious</p>
+        <h6 style="color: gray;">The best food blog on the web</h6>
+      </div>
+    </div>
+    <nav class="one-two-rightheader">
+      <img src="images/fb-icon.png" />
+      <img src="images/twit-icon.png" />
+      <img src="images/gp-icon.png" />
+      <img src="images/insta-icon.png" />
+      <img src="images/flic-icon.png" />
+      <img src="images/pint-icon.png" />
+      <p> .</p>
+      <img src="images/rss-icon.png" />
+      <img src="images/mail-icon.png" />
+    </nav>
+  </header>
+  <hr class="separator">
+  <main>
+    <section>
+      <div>
+        <header>
+          <div class="above-pizza-image">
+            <h1 class="h1-text">Chocolate Pizza
+              <h6 style="color: gray;">Posted on 15 Dec 2013 / Desserts</h6>
+            </h1>
+            <img src="images/print-icon.png" />
+            <nav class="one-two-rightheader">
+              <p>Print button:</p>
+              <img src="images/fb-icon.png" />
+            </nav>
+          </div>
+        </header>
+        <figure class="pizza-image">
+          <img src="https://th.bing.com/th/id/OIP.63HEZLIAHlvWIXh3kj8pvAHaJ0?pid=ImgDet&rs=" width="300" height="300" />
+        </figure>
+      </div>
+    </section>
+    <section class="first-paragraph-container">
+      <p style="color: gray;">
+        For the fig swirl, melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs
+        and toss into a saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy
+        mixture. Add salt with one or two stirs, set aside, and let cool completely.
+      </p>
+      <p style="color: gray;">
+        Ice Cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
+      </p>
+      <p style="color: gray;">
+        Using an ice cream machine, pour liquids into the frozen basin and process using the manufacturer's instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig-jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a Pyrex dish or glass Tupperware. Freeze for at least 2 hours before serving.
+      </p>
+    </section>
+    <section class="image-text-overlay">
+      <figure>
+        <img src="images/list-bg.png" />
+      </figure>
+      <div class="overlay-text">
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" />
+              <span>1 1/2 Cups Milk</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" />
+              <span>1/2 Cup Mascarpone</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" />
+              <span>1/2 Tsp Pink Salt</span>
+            </label>
+            <input type="checkbox" />
+            <span>1lb Black Mission Figs</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>1/2 Cup Brown Sugar</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>2-4 Tsp Water</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>1 1/2 Cups Heavy Cream</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>1/3 Cup Granulated Sugar</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>2 Egg Yolks</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>1 Lemon, Juiced</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>2 Tbsp Butter</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" />
+            <span>1 Cup Honey Roasted Pecans, Lightly Chopped</span>
+          </label>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr class="separator-2">
+    <section class="profile-picture">
+      <figure>
+        <img src="images/van-pic.png" />
+      </figure>
+      <div>
+        <h2>Vanessa Stevenson</h2>
+        <p style="color: gray;">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </div>
+      <a href="#"><strong>Share Recipe</strong></a>
+    </section>
+  </main>
+  <footer>
+    <img src="images/small-logo.png" />
+    <p style="color: gray;">Delicious &copy; 2023 &#183; All rights reserved</p>
+    <p style="color: gray;">Proudly published with Ghost</p>
+  </footer>
 </body>
+
 </html>

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin-bottom: 30px; /* Add margin at the bottom of the header */
+}
+
+.hero {
+  margin-bottom: 30px; /* Add margin at the bottom of the hero section */
+}
+
+.hero img {
+  display: block; /* Make the hero image a block element */
+}
+
+.sections-container {
+  display: flex;
+  justify-content: stretch;
+  margin-bottom: 20px; /* Add margin at the bottom of the sections container */
+}
+
+.section {
+  width: 300px;
+  height: 375px;
+  margin-right: 10px; /* Add margin between the sections */
+  padding: 10px; /* Add padding within the sections */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
+}
+
+.left-section {
+  margin-bottom: 20px; /* Add margin at the bottom of the left section */
+}
+
+.scrollable-container {
+  max-height: 300px; /* Add a maximum height for scrollability */
+  overflow: auto; /* Enable scrolling if content exceeds the container */
+  padding: 10px; /* Add padding within the scrollable container */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
+}
+
+.hover-section {
+  padding: 10px; /* Add padding within the hover section */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
+}
+
+.full-width-section {
+  margin-bottom: 20px; /* Add margin at the bottom of the full-width section */
+  padding: 10px; /* Add padding within the full-width section */
+  background-color: #f0f0f0; /* Add a background color for better visualization */
+}
+
+.footer-content {
+  background-color: #f0f0f0;
+  width: 960px;
+  height: 210px;
+}
