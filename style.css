@@ -4,7 +4,6 @@ body{
   align-items: center;
   text-align: center;
   width: auto;
-
 }
 
 main{
@@ -30,7 +29,7 @@ main{
 .one-two-rightheader, .one-two-leftheader{
   display:flex;
   align-items: center;
-  flex: 1;
+  flex: 3;
 }
 
 .one-two-rightheader{
@@ -76,7 +75,7 @@ figure .pizza-image img {
   display:flex;
   flex-direction: column;
   text-align: left;
-  color:rgb(37, 27, 20);
+  color:rgb(26, 14, 6);
   margin: 10px 0 15px 0;
 }
 .first-paragraph-container p{
@@ -129,10 +128,10 @@ section .profile-picture p{
 .profile-picture a {
   padding: 10px 30px;
   border: none;
-  background-color: rgb(172, 90, 61);
+  background-color: rgb(184, 67, 25);
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 25px;
   margin-left: 15px;
 }
 
